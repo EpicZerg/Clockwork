@@ -1,5 +1,5 @@
 public class Clock {
-	private long ms = 0,startms = 0,timerstartms=0,timerstopms=0,s=0;
+	private long ms = 0,startms = 0,timerstartms = 0,timerstopms = 0;
 	public Clock(){
 		startms = System.currentTimeMillis();
 	}
