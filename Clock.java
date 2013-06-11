@@ -1,9 +1,9 @@
 public class Clock {
-	public long ms = 0;
-	long startms = 0;
-	long timerstartms = 0;
-	long timerstopms = 0;
-	double s = 0;
+	private long ms = 0;
+	private long startms = 0;
+	private long timerstartms = 0;
+	private long timerstopms = 0;
+	private double s = 0;
 	public Clock(){
 		startms = System.currentTimeMillis();
 	}
@@ -23,6 +23,4 @@ public class Clock {
 	public long getTimerValue(){
 		return timerstopms - timerstartms;
 	}
-
-	
 }
